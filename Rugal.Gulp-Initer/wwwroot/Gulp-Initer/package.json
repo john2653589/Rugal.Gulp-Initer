@@ -1,0 +1,8 @@
+{
+  "name": "@rugal.tu/gulp-initer",
+  "version": "1.0.10",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0"
+  }
+}
