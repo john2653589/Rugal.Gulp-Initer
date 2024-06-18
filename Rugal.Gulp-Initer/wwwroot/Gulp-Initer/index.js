@@ -1,4 +1,4 @@
-class GulpIniter {
+class GulpIniterTool {
     constructor() {
         this.Folders = {};
         this.Gulp = require('gulp');
@@ -104,5 +104,5 @@ class GulpIniter {
     //#endregion
 }
 
-const Initer = new GulpIniter();
-module.exports = Initer;
+const GulpIniter = new GulpIniterTool();
+module.exports = GulpIniter;
