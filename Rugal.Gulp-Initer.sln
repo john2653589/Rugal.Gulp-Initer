@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rugal.Gulp-Initer", "Rugal.Gulp-Initer\Rugal.Gulp-Initer.csproj", "{D1730AD0-AEB8-4B40-A22E-F5D567D7AA27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rugal.Gulp-Initer", "Rugal.Gulp-Initer\Rugal.Gulp-Initer.csproj", "{D1730AD0-AEB8-4B40-A22E-F5D567D7AA27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{EE59AFB5-3377-4841-B1BD-C1287D8D3D65}"
+	ProjectSection(SolutionItems) = preProject
+		Rugal.Gulp-Initer\wwwroot\Gulp-Initer\README.md = Rugal.Gulp-Initer\wwwroot\Gulp-Initer\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
