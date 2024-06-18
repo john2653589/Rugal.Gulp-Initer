@@ -1,11 +1,19 @@
 {
   "name": "@rugal.tu/gulp-initer",
-  "version": "1.1.3",
+  "version": "1.1.4",
+  "description": "Based on gulp, easy to use gulp for copy/clear npm folders/files",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0"
   },
-  "author": "Rugal Tu",
+  "author": {
+    "name": "Rugal Tu",
+    "email": "john2653589@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john2653589/Rugal.Gulp-Initer"
+  },
   "license": "MIT",
   "keywords": [
     "gulp",
