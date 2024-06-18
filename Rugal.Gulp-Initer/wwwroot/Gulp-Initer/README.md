@@ -14,8 +14,8 @@ const Initer = require('@rugal.tu/gulp-initer');
 
 ### Methods:
 
-* #### ```WithSourceRoot()```
-* #### ```WithTargetRoot()```
+* #### `WithSourceRoot()`
+* #### `WithTargetRoot()`
 
 Set foloder source/target path, if not set the default root directory is used <br>
 Default source/target root path is ```node_modules``` and ```wwwroot/npm```
@@ -28,7 +28,7 @@ Initer
 
 ---
 
-* #### ```UseClearTarget()```
+* #### `UseClearTarget()`
 
 Enable/Disable clear task, if not set the default is enable ```true```
 
@@ -41,9 +41,9 @@ Initer
 
 Add the folder/file that needs to be copied to the settings
 You can use these to filter .js .ts .css files:
-* #### ```AddFolder_Js()```
-* #### ```AddFolder_Ts()```
-* #### ```AddFolder_Css()```
+* #### `AddFolder_Js()`
+* #### `AddFolder_Ts()`
+* #### `AddFolder_Css()`
 
 ```js
 Initer
@@ -53,7 +53,7 @@ Initer
 ```
 
 You can also use ```AddFolder()``` to customize the file types to filter:
-* #### ```AddFolder()```
+* #### `AddFolder()`
 ```js
 Initer
     .AddFolder('bootstrap/dist', null, '*.+(js|css)') // copy .js .css files from 'bootstrap/dist' to 'bootstrap/dist'
