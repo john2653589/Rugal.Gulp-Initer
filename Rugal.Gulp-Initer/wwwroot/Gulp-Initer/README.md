@@ -1,7 +1,7 @@
 
 # Gulp-Initer
 ## Based on gulp <br> Easy to use gulp for copy/clear npm folders/files
-## How to use:
+### How to use:
 
 * Install Gulp-Initer from npm
 * Create gulpfile.js 
@@ -12,13 +12,13 @@ const Initer = require('@rugal.tu/gulp-initer');
 
 ---
 
-## Methods:
+### Methods:
 
-* ### `WithSourceRoot()`
-* ### `WithTargetRoot()`
+* #### ```WithSourceRoot()```
+* #### ```WithTargetRoot()```
 
-### Set foloder source/target path [Option] <br> If not set, the default root directory is used
-### Default source/target root path is `node_modules` and `wwwroot/npm`
+Set foloder source/target path, if not set the default root directory is used <br>
+Default source/target root path is ```node_modules``` and ```wwwroot/npm```
 
 ```js
 Initer
@@ -28,9 +28,9 @@ Initer
 
 ---
 
-* ### `UseClearTarget()`
+* #### ```UseClearTarget()```
 
-### Enable/Disable clear task <br> If not set, the default is enable `true`
+Enable/Disable clear task, if not set the default is enable ```true```
 
 ```js
 Initer
@@ -39,11 +39,11 @@ Initer
 
 ---
 
-### Add the folder/file that needs to be copied to the settings
-### You can use these to filter .js .ts .css files:
-* ### `AddFolder_Js()`
-* ### `AddFolder_Ts()`
-* ### `AddFolder_Css()`
+Add the folder/file that needs to be copied to the settings
+You can use these to filter .js .ts .css files:
+* #### ```AddFolder_Js()```
+* #### ```AddFolder_Ts()```
+* #### ```AddFolder_Css()```
 
 ```js
 Initer
@@ -52,8 +52,8 @@ Initer
     .AddFolder_Css('bootstrap/dist');
 ```
 
-### You can also use `AddFolder()` to customize the file types to filter:
-* ### `AddFolder()`
+You can also use ```AddFolder()``` to customize the file types to filter:
+* #### ```AddFolder()```
 ```js
 Initer
     .AddFolder('bootstrap/dist', null, '*.+(js|css)') // copy .js .css files from 'bootstrap/dist' to 'bootstrap/dist'
