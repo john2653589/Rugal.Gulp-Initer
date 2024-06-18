@@ -5,7 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Rugal.Gulp_Initer</RootNamespace>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>wwwroot\Gulp-Initer\README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/john2653589/Rugal.Gulp-Initer</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
