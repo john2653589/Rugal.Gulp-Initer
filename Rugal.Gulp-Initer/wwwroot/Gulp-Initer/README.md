@@ -59,4 +59,12 @@ Initer
     .AddFolder('vue/dist', 'vue', '*.+(js|ts)');      // copy .js .ts files from 'vue/dist' to 'vue'
 ```
 
+---
 
+* ### `InitTask()`
+After completing the folder settings, just call `InitTask()` to create the task and set the task triggering time in `Task Explorer`
+```js
+Initer
+    .AddFolder('vue/dist')
+    .InitTask();
+```
